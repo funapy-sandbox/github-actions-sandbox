@@ -1,0 +1,13 @@
+name: Civo CLI
+
+on:
+  - pull_request
+
+jobs:
+  civo-cli-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install civo
+        uses: civo/action-civo@master
+        with:
+          token: "TODO"
