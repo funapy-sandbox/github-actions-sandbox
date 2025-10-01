@@ -11,3 +11,7 @@ jobs:
         uses: civo/action-civo@master
         with:
           token: "TODO"
+      - name: Install civo
+        uses: civo/action-civo@v1.0.1
+        with:
+          token: "TODO"
